@@ -5,9 +5,9 @@
  "scripts": {
   "start": "node app.js"},
  "keywords": [],
- "author": "",
+ "author": "Gospel Ifeyichukwu Arinze",
  "license": "ISC",
- "description": "",
+ "description": "This is the deployed app for nexus",
  "dependencies": {
   "express": "^4.19.2"}
 }
