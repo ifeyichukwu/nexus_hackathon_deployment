@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .course {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .course h2 {
+            margin: 0 0 10px;
+        }
+        .button {
+            padding: 10px 15px;
+            margin-right: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .turn-on {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .turn-off {
+            background-color: #f44336;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome, <span id="teacher-name"></span></h1>
+    <div id="courses-container"></div>
+
+    <script>
+        const teacherName = localStorage.getItem('teacherName'); // Get the teacher name from local storage
+        document.getElementById('teacher-name').textContent = teacherName;
+
+        // Function to fetch courses for the teacher
+        async function fetchCourses() {
+            const response = await fetch('/getCourses', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ teacherName }),
+            });
+            const data = await response.json();
+            const coursesContainer = document.getElementById('courses-container');
+
+            if (data.courses) {
+                data.courses.forEach(course => {
+                    const courseDiv = document.createElement('div');
+                    courseDiv.className = 'course';
+                    courseDiv.innerHTML = `
+                        <h2>${course.name}</h2>
+                        <p>Venue: ${course.venue}</p>
+                        <p>Time: ${course.time}</p>
+                        <p>Day: ${course.day}</p>
+                        <button class="button turn-on" onclick="turnOnPower('${course.name}')">Turn On Power Supply</button>
+                        <button class="button turn-off" onclick="turnOffPower('${course.name}')">Turn Off Power Supply</button>
+                    `;
+                    coursesContainer.appendChild(courseDiv);
+                });
+            } else {
+                coursesContainer.innerHTML = `<p>${data.message}</p>`;
+            }
+        }
+
+        // Function to turn on power
+        async function turnOnPower(courseName) {
+            const response = await fetch('/turnOnPower', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ teacherName, courseName }),
+            });
+            const data = await response.json();
+            alert(data.message);
+        }
+
+        // Function to turn off power
+        async function turnOffPower(courseName) {
+            const response = await fetch('/turnOffPower', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ teacherName, courseName }),
+            });
+            const data = await response.json();
+            alert(data.message);
+        }
+
+        fetchCourses(); // Call function to fetch courses on page load
+    </script>
+
+</body>
+</html>
