@@ -92,7 +92,13 @@
             } else {
                 document.getElementById('message').textContent = data.message;
             }
-        });
+        })
+            ;
+         window.onload = async function() {
+    const teacherName = localStorage.getItem('teacherName'); // Retrieve teacher name
+    document.getElementById('teacher-name').textContent = teacherName; // Display name
+    await fetchCourses(teacherName); // Fetch courses
+};
     </script>
 
 </body>
