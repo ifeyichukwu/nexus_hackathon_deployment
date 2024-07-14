@@ -1,15 +1,15 @@
-{"name": "teacher-switch",
-  "version": "1.0.0",
-  "main": "sign_in.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"},
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "express": "^4.19.2"},
-  "scripts": {
-    "start": "node app.js"}  
+{
+    "name": "teacher-switch",
+    "version": "1.0.0",
+    "main": "sign_in.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.19.2"
+    }
 }
-
