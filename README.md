@@ -45,6 +45,9 @@ Open the app.js file using nodejs to run it on your local terminal.
 cd to the teacher-app/ by typing "cd teacher-app" and run the app by typing "node app.js" in the terminal
 On the landing page, fill in the teacher's or instructor's sign in details i.e Username, password, Accesskey.
 
+Find below the link to the deployed project: 
+https://nexushackathondeployment-rain-inn-community.vercel.app/
+
 Use the following details to sign in:
 Username: Adedoyin Mary, Eng Folorunsho, Dr. Adedeji, Prof. Oyedeko, Engr Joseph
 Password: adedoyin310, folorunsho210, adedeji212, oyedeko101, joseph592
@@ -56,7 +59,7 @@ Remember to turn off the power supply when done.
 ## How it works
 See how the web app works
 
-[![A demonstration of the web applications](https://github.com/ifeyichukwu/nexus_hackathon_deployment/blob/main/landing%20page%20of%20power_on.JPG))](https://drive.google.com/file/d/1d8sp0aPGbughkacnLXg9P2ZHww5WPG84/view?usp=sharing)
+[![A demonstration of the web applications](https://github.com/ifeyichukwu/nexus_hackathon_deployment/blob/main/landing%20page%20of%20power_on.JPG)](https://drive.google.com/file/d/1d8sp0aPGbughkacnLXg9P2ZHww5WPG84/view?usp=sharing)
 
 Click the image above to watch the video.
 
@@ -66,10 +69,13 @@ Additionally, the software could incorporate predictive analytics to anticipate 
 The system will also use databases to check on which hostels are on internships (i.e., 400 level students) and prevent power from being wasted in their apartments. (Technology stack: MySQL and python)
 It also uses Databases to check on which hostels are on Internships i.e 400L and prevents power from wasting to their apartments. (Technology stack: MySQL and python)
 
-Find below a link to the Presentation Package in .pptx
+## The Presentation Package
+[![Open the PowerPoint](https://raw.githubusercontent.com/your-username/your-repo/main/thumbnail.png)](https://raw.githubusercontent.com/your-username/your-repo/main/presentation.pptx)
+
 https://docs.google.com/presentation/d/1cqksjaLGQMmD5g-2fYnV3aHxsHeNYZ_c/edit?usp=sharing&ouid=115494278096759273665&rtpof=true&sd=true
 
-Find below the link to the deployed project
+Find below the link to the deployed project: 
+https://nexushackathondeployment-rain-inn-community.vercel.app/
 
 Use the following details to sign in:
 Username: Adedoyin Mary, Eng Folorunsho, Dr. Adedeji, Prof. Oyedeko, Engr Joseph
