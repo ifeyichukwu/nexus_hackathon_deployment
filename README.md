@@ -70,7 +70,8 @@ The system will also use databases to check on which hostels are on internships 
 It also uses Databases to check on which hostels are on Internships i.e 400L and prevents power from wasting to their apartments. (Technology stack: MySQL and python)
 
 ## The Presentation Package
-[![Open the PowerPoint](https://raw.githubusercontent.com/your-username/your-repo/main/thumbnail.png)](https://raw.githubusercontent.com/your-username/your-repo/main/presentation.pptx)
+[![Open the PowerPoint](https://raw.githubusercontent.com/your-username/your-repo/main/thumbnail.png)](https://github.com/ifeyichukwu/nexus_hackathon_deployment/blob/main/THE%20ENERGY%20MAVERICKS%20PROJECT.pptx))
+
 
 https://docs.google.com/presentation/d/1cqksjaLGQMmD5g-2fYnV3aHxsHeNYZ_c/edit?usp=sharing&ouid=115494278096759273665&rtpof=true&sd=true
 
