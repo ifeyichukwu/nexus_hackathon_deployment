@@ -45,13 +45,10 @@ Open the app.js file using nodejs to run it on your local terminal.
 cd to the teacher-app/ by typing "cd teacher-app" and run the app by typing "node app.js" in the terminal
 On the landing page, fill in the teacher's or instructor's sign in details i.e Username, password, Accesskey.
 
-Find below the link to the deployed project: 
-https://nexushackathondeployment-rain-inn-community.vercel.app/
-
-Use the following details to sign in:
-Username: Adedoyin Mary, Eng Folorunsho, Dr. Adedeji, Prof. Oyedeko, Engr Joseph
-Password: adedoyin310, folorunsho210, adedeji212, oyedeko101, joseph592
-Accesskey: 2801, 2207, 1101, 3501, 3801
+### Use the following details to sign in:
+#### Username: Adedoyin Mary, Eng Folorunsho, Dr. Adedeji, Prof. Oyedeko, Engr Joseph
+#### Password: adedoyin310, folorunsho210, adedeji212, oyedeko101, joseph592
+#### Accesskey: 2801, 2207, 1101, 3501, 3801
 
 You would be taken to another page, and there for the teacher's authority, you can turn on the power supply for the hall venue or practical lab to be used.
 Remember to turn off the power supply when done.
@@ -70,17 +67,14 @@ The system will also use databases to check on which hostels are on internships 
 It also uses Databases to check on which hostels are on Internships i.e 400L and prevents power from wasting to their apartments. (Technology stack: MySQL and python)
 
 ## The Presentation Package
-[![Open the PowerPoint](https://raw.githubusercontent.com/your-username/your-repo/main/thumbnail.png)](https://github.com/ifeyichukwu/nexus_hackathon_deployment/blob/main/THE%20ENERGY%20MAVERICKS%20PROJECT.pptx))
+[![Open the PowerPoint](https://github.com/ifeyichukwu/nexus_hackathon_deployment/blob/main/powerpoint.JPG)](https://github.com/ifeyichukwu/nexus_hackathon_deployment/blob/main/THE%20ENERGY%20MAVERICKS%20PROJECT.pptx))
 
-
-https://docs.google.com/presentation/d/1cqksjaLGQMmD5g-2fYnV3aHxsHeNYZ_c/edit?usp=sharing&ouid=115494278096759273665&rtpof=true&sd=true
-
-Find below the link to the deployed project: 
+### Find below the link to the deployed project: 
 https://nexushackathondeployment-rain-inn-community.vercel.app/
 
-Use the following details to sign in:
-Username: Adedoyin Mary, Eng Folorunsho, Dr. Adedeji, Prof. Oyedeko, Engr Joseph
-Password: adedoyin310, folorunsho210, adedeji212, oyedeko101, joseph592
-Accesskey: 2801, 2207, 1101, 3501, 3801
+### Use the following details to sign in:
+#### Username: Adedoyin Mary, Eng Folorunsho, Dr. Adedeji, Prof. Oyedeko, Engr Joseph
+#### Password: adedoyin310, folorunsho210, adedeji212, oyedeko101, joseph592
+#### Accesskey: 2801, 2207, 1101, 3501, 3801
 
 
