@@ -54,7 +54,14 @@ You would be taken to another page, and there for the teacher's authority, you c
 Remember to turn off the power supply when done.
 
 ## How it works
-<a href="https://drive.google.com/file/d/1d8sp0aPGbughkacnLXg9P2ZHww5WPG84/view?usp=sharing" target=_blank"><img src="https://drive.google.com/file/d/1DH8ZBsUL0Z5jr40iQUhpX1_WPamVUvTP/view?usp=sharing" alt="See how the web app works" width="180", height="180" border="10"/></a>
+See how the web app works
+
+<a href="" target=_blank">
+<img src="" alt="" width="180", height="180" border="10px">
+</a>
+[![A demonstration of the web applications](https://drive.google.com/file/d/1DH8ZBsUL0Z5jr40iQUhpX1_WPamVUvTP/view?usp=sharing)](https://drive.google.com/file/d/1d8sp0aPGbughkacnLXg9P2ZHww5WPG84/view?usp=sharing)
+
+Click the image above to watch the video.
 
 ## Future Development Plan
 In the future, I plan to develop a software system that will use real-time data to optimize the operation of our water wheel hydropower electricity generation. This software will monitor the water flow, turbine speed, and power output in order to make adjustments that maximize efficiency and output. 
