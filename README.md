@@ -56,9 +56,6 @@ Remember to turn off the power supply when done.
 ## How it works
 See how the web app works
 
-<a href="" target=_blank">
-<img src="" alt="" width="180", height="180" border="10px">
-</a>
 [![A demonstration of the web applications](https://drive.google.com/file/d/1DH8ZBsUL0Z5jr40iQUhpX1_WPamVUvTP/view?usp=sharing)](https://drive.google.com/file/d/1d8sp0aPGbughkacnLXg9P2ZHww5WPG84/view?usp=sharing)
 
 Click the image above to watch the video.
