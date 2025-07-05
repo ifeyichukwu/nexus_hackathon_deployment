@@ -70,7 +70,7 @@ It also uses Databases to check on which hostels are on Internships i.e 400L and
 [![Open the PowerPoint](https://github.com/ifeyichukwu/nexus_hackathon_deployment/blob/main/powerpoint.JPG)](https://docs.google.com/presentation/d/1cqksjaLGQMmD5g-2fYnV3aHxsHeNYZ_c/edit?usp=sharing&ouid=115494278096759273665&rtpof=true&sd=true)
 
 ### Find below the link to the deployed project: 
-https://nexushackathondeployment-rain-inn-community.vercel.app/
+[https://nexushackathondeployment-rain-inn-community.vercel.app/](https://nexushackathondeployment-dzf7ps7iu-rain-inn-community.vercel.app/)
 
 ### Use the following details to sign in:
 #### Username: Adedoyin Mary, Eng Folorunsho, Dr. Adedeji, Prof. Oyedeko, Engr Joseph
